@@ -1,0 +1,11 @@
+101 1200
+Ali Raza
+102 450
+Sara Khan
+103 980
+Usman Tariq
+104 300
+Hina Ali
+105 1500
+Bilal Ahmed
+-1
