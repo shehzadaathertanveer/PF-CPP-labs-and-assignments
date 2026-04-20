@@ -14,7 +14,7 @@ int main()
     }
     for(int i = 1; i<=num;i++)
     {
-            for(int k=2;k<=i;k++ )
+          for(int k=2;k<=i;k++ )
             {
                 cout<<"0";
             }

@@ -1,5 +1,5 @@
 //Shehzada Ather BITF25A047 BSIT Afternoon
-// this program find anstraing number
+// this program find armstrong number
 #include <iostream>
 #include <iomanip>
 using namespace std;

@@ -6,7 +6,6 @@ using namespace std;
 int main()
 {
     string name;
-    char colon;
     int math=0, eng=0, sci=0;
     double avg=0, sum=0, avgMath=0, avgSci=0, avgEng=0;
     for( int i=1;i<=5;i++)

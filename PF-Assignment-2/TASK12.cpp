@@ -15,6 +15,9 @@ int main()
         {
             cout<<"("<<i<<","<<j<<") ";
         }
+        start++;
+        end--;
+        cout<<endl;
     }
     return 0;
 }

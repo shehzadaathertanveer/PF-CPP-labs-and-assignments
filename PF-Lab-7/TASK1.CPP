@@ -1,4 +1,4 @@
-//THIS PROGRAM PRINTS A SEPUENCE OF NUMBERS
+//THIS PROGRAM PRINTS A PATTERN OF NUMBERS
 #include<iostream>
 using namespace std;
 int main()

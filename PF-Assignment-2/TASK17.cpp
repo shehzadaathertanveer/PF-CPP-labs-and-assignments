@@ -14,7 +14,7 @@ int main()
     }
     for(int i = 1;i<=num;i++)
     {
-        for(int j=1;j<=num;j++)
+       for(int j=1;j<=num;j++)
         {
             int top=i;
             int left=j;

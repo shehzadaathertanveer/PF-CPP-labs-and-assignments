@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-    int n, first=-0,second=1,next=0;
+    int n, first=0,second=1,next=0;
     cout<<"Please enter the limit: ";
     cin>>n;
     cout<<endl<<endl;

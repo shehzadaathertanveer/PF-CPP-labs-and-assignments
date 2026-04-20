@@ -13,14 +13,14 @@ int main()
     cin>>limit;
     cout<<endl;
 
-    cout<<setw(4)<<"  ";
+    cout<<"    ";
     for(int i=start;i<=limit;i++)
     {
         cout<<setw(5) <<i ;
     }
     cout<<endl;
 
-    cout<<setw(4)<<" ";
+    cout<<"    ";
      for(int j=start;j<=limit;j++)
     {
         cout<<"-----" ;

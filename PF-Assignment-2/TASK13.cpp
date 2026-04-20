@@ -14,8 +14,9 @@ int main()
             {
                 if((i*i)+(j*j)==(k*k))
                  {
-                     cout<<"("<<setw(3)<<i<<", "<<setw(3)<<j<<", "<<setw(3)<<k<<")"<<setw(6) <<" -> " <<setw(3)<<i<<"^2 + " <<setw(3)<<j <<"^2 + " <<setw(3)<<k <<"^2";
-                     cout<<endl;
+                    cout<<"("<<setw(3)<<i<<", "<<setw(3)<<j<<", "<<setw(3)<<k <<")"
+                    <<setw(6) <<" -> " <<setw(3)<<i<<"^2 + "
+                    <<setw(3)<<j <<"^2 = " <<setw(3)<<k <<"^2"<<endl;
                  }
                  
             }

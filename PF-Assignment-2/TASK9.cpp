@@ -11,6 +11,11 @@ int main()
   
     cout<<"Enter a Base-7 digit: ";
     cin>>digit;
+    while(digit<0 || digit>6)
+    {
+        cout<<"Invalid input. Please enter a Base-7 digit (0-6) or -1 to stop: ";
+        cin>>digit;
+    }
     while(digit!=-1)
     {
         int base=1,power=0;
@@ -23,6 +28,11 @@ int main()
         decimal= decimal+(digit*base);
         cout<<"Enter a Base-7 digit: ";
         cin>>digit;
+         while((digit<0 || digit>6)&&digit!=-1)
+    {
+        cout<<"Invalid input. Please enter a Base-7 digit (0-6) or -1 to stop: ";
+        cin>>digit;
+    }
     }
 
     cout<<endl<<endl;

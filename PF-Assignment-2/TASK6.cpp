@@ -11,7 +11,7 @@ int main()
     {
         cout<<"ERROR: Invalid Input!!";
         cout<<endl<<endl;
-        cout<<"Please enter number of inputs (>=2): ";
+        cout<<"Please enter number of inputs again (>=2): ";
         cin>>n;
     }
     for(int i=1; i<=n;i++)

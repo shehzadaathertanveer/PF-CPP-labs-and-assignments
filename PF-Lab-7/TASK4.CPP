@@ -1,6 +1,7 @@
     //THIS PROGRAM READS TEMPERATURE VALUES FROM USER AND STORE IT IN FILEE AND THEN USE DATA FROM FILE FOR PROCESSING
     #include<iostream>
     #include<fstream>
+    #include<iomanip>
     #include<string>
     using namespace std;
     int main()
@@ -13,7 +14,7 @@
         fout.open("temperatures.txt");
         if(fout)
         {
-          cout<<"Please eneter the name od city:  ";
+          cout<<"Please eneter the name of city:  ";
           getline(cin,city);
           cout<<"Please enter numbeer of days: ";
           cin>>day;
@@ -56,9 +57,9 @@
            }
           }
           avg=sum/day;
-          cout<<"Min Temp  :  "<<min<<endl;
-          cout<<"Max Temp  :  "<<max<<endl;
-          cout<<"Average   :  "<<avg<<endl;
+          cout<<"Min Temp  :  "<<setw(3)<<min<<" C"<<endl;
+          cout<<"Max Temp  :  "<<setw(3)<<max<<" C"<<endl;
+          cout<<"Average   :  "<<setw(3)<<avg<<" C"<<endl;
          fin.close();
          fin.open("temperatures.txt");
          if(fin)

@@ -1,5 +1,5 @@
 //SHEHZADA ATHER BITF25A047 BSIT AFTERNOOON
-//THIS PROGAM PRINTS TABLE
+//THIS PROGAM PRINTS SQUARE MARTIX TABLE
 #include<iostream>
 #include<iomanip>
 using namespace std;

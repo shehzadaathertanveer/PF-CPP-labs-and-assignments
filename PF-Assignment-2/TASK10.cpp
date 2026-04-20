@@ -1,5 +1,5 @@
 // SHEHZADA ATHER BITF25A047 BSIT AFTERNOON
-//THIS PROGRAM PRINTS A PYRAMID
+//THIS PROGRAM PRINTS A PYRAMID of numbers
 #include<iostream>
 using namespace std;
 int main()
@@ -14,11 +14,11 @@ int main()
         {
             cout<<"  ";
         }
-         for(int m=i ;m>1;m--)
+        for(int m=i ;m>1;m--)
         {
             cout<<m <<" ";
         }
-          for(int k=1 ;k<=i;k++)
+        for(int k=1 ;k<=i;k++)
         {
             cout<<k<<" ";
         }

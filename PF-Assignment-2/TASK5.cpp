@@ -21,8 +21,8 @@ int main()
         cout<<endl<<endl;
         cout<<"----------Statistics----------"<<endl;
         cout<<"Months recorded : 12"<<endl;
-        cout<<"Year "<<i <<" total rain fall : "<<sum<<endl;
-        cout<<"Average monthly Rain fall : "<<avg<<endl<<endl<<endl;
+        cout<<"Year "<<i <<" total rain fall : "<<sum<<" inches"<<endl;
+        cout<<"Average monthly Rain fall : "<<avg<<" inches"<<endl<<endl<<endl;
     }
     return 0;
 
