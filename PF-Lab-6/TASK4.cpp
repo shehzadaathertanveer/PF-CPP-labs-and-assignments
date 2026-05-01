@@ -10,13 +10,11 @@ int main()
     for(int i=1; i<=limit ;i++)
     {
         int first=0,second=1,next=0;
-        for(int j=1;j<=i;j++)
-        {
+       
             cout<<first <<" ";
             next=first+second;
             first=second;
             second=next;
-        }
         cout<<endl;
     }
     return 0;
