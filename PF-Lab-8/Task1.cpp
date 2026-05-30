@@ -20,7 +20,7 @@ int moviesDataSaver()
     string movieName;
     int year;
 
-    cout<<"Please enter your favorite movie: ";
+    cout<<" Please enter your favorite movie: ";
     getline(cin,movieName);
     cout<<"Please enter release year: ";
     cin>>year;

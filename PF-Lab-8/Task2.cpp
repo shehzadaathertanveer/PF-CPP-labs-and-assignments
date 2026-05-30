@@ -12,7 +12,7 @@ int main()
     cout<<"Please enter a odd number between 5 and 15: ";
     cin>>num;
 
-    while(num<5||num>15||num%2==0)
+    while (num<5||num>15||num%2==0)
     {
         cout<<endl<<"Invalid Input"<<endl;
         cout<<"Please enter a odd number between 5 and 15: ";

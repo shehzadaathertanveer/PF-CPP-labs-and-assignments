@@ -11,7 +11,7 @@ int main()
     cout<<"Please enter number of days: ";
     cin>>days;
 
-    cout<<"Please enter readings per day: ";
+    cout <<"Please enter readings per day: ";
     cin>>readings;
 
     generateSensorLog(days,readings);

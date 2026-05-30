@@ -17,7 +17,7 @@ void convertTime()
     cout<<"Please enter total seconds: ";
     cin>>second;
 
-    hour = second /3600;
+    hour = second / 3600;
     second = second % 3600;
 
     minute = second / 60;

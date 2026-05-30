@@ -6,7 +6,7 @@ void printVbox(int n);
 int main()
 {
     int num;
-    cout<<"Please enter a number: ";
+    cout<< "Please enter a number: ";
     cin>>num;
     while(num<8)
     {
